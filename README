@@ -1,0 +1,19 @@
+1. Add a config.ini file with contents like so:
+
+[pyrogram]
+api_id = %your api id%
+api_hash = %your api hash%
+
+2. run requirements install:
+
+pip install -r requirements
+
+3. start script:
+
+python main.py
+
+---
+
+Script will ask for your phone number, and then the authorization code.
+After auth is succeeded it will ask which chats/channels you want to track
+and what chat/channel should receive all the reposts
