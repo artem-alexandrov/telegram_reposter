@@ -17,3 +17,9 @@ python main.py
 Script will ask for your phone number, and then the authorization code.
 After auth is succeeded it will ask which chats/channels you want to track
 and what chat/channel should receive all the reposts
+
+---
+
+Pyrogram hotfix
+
+You need to open this file <pyrogram_root>/pyrogram/api/types/messages/channel_messages.py and put this line Int.read(b) right after the # No flags comment in read method, line 44
